@@ -1,4 +1,4 @@
-function logUser(username) {
+let logUser= function(username) {
   console.log ${username};
 };
 document.getElementById("result").innerHTML = logUser("aname");
@@ -6,6 +6,7 @@ document.getElementById("result").innerHTML = logUser("aname");
 should create a function named logUser that takes one parameter username
 should log user: ${username} to the console when logUser is called
 should not return a value when logUser is called
+
 
 
 
